@@ -75,7 +75,8 @@ http://IP:9981
 
 # 6. Config TVH 
  tvheadend -C
-
+========================================================================================================================================
+<p>
 Selanjutnya :
 <p>Copy/paste Script Start/Stop "tvheadend" ke directory /etc/init.d
 berikan hak akses 755
