@@ -1,4 +1,4 @@
-Note: Linux Ubuntu 16.04 Architecture accepted: 
+#Note: Linux Ubuntu 16.04 Architecture accepted: 
 
 - i386
 - amd64
@@ -7,12 +7,12 @@ Note: Linux Ubuntu 16.04 Architecture accepted:
 
 ________________________________________________________________________________________________
 
-1. install GPG keys:
+#1. install GPG keys:
 Bintray :
-# sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 379CE192D401AB61 
+ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 379CE192D401AB61 
 
 Doozer (apt.tvheadend.org):
-# wget -qO- https://doozer.io/keys/tvheadend/tvheadend/pgp | sudo apt-key add -
+ wget -qO- https://doozer.io/keys/tvheadend/tvheadend/pgp | sudo apt-key add -
 
 If you see something like the following:
 Executing: /tmp/apt-key-gpghome666/gpg.1.sh --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 379CE192D401AB61
@@ -21,31 +21,31 @@ gpg: connecting dirmngr at '/run/user/0/gnupg/d.1234/S.dirmngr' failed: No such 
 gpg: keyserver receive failed: No dirmngr
 >>>>>>>>>>>>>>>>>>>>>>>>
 
-You need to install dirmngr:
-# sudo apt-get install dirmngr
+#You need to install dirmngr:
+ sudo apt-get install dirmngr
 
 >>>>>>>>>>>>>>>>>>>>>>>>
 
-2. Pick a build type, add the repository accordingly:
+#2. Pick a build type, add the repository accordingly:
 
-Bintray:
-# echo "deb https://dl.bintray.com/tvheadend/deb trusty stable-4.2" | sudo tee /etc/apt/sources.list.d/tvheadend.list
+#Bintray:
+ echo "deb https://dl.bintray.com/tvheadend/deb trusty stable-4.2" | sudo tee /etc/apt/sources.list.d/tvheadend.list
 
-Doozer:
-# echo "deb http://apt.tvheadend.org/unstable trusty main" | sudo tee -a /etc/apt/sources.list.d/tvheadend.list
-
->>>>>>>>>>>>>>>>>>>>>>>>
-
-3. Update:
-# sudo apt-get update
+#Doozer:
+ echo "deb http://apt.tvheadend.org/unstable trusty main" | sudo tee -a /etc/apt/sources.list.d/tvheadend.list
 
 >>>>>>>>>>>>>>>>>>>>>>>>
 
-4. Installation TVHeadend:
-# sudo apt-get install tvheadend -y
+#3. Update:
+ sudo apt-get update
 
-5. Restart
-# service tvheadend restart
+>>>>>>>>>>>>>>>>>>>>>>>>
+
+#4. Installation TVHeadend:
+ sudo apt-get install tvheadend -y
+
+#5. Restart
+ service tvheadend restart
 
 >>>>>>>>>>>>>>>>>>>>>>>>
 Login: 
