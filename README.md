@@ -50,17 +50,9 @@ gpg: keyserver receive failed: No dirmngr
 >>>>>>>>>>>>>>>>>>>>>>>>
 Login: 
 http://IP:9981
-(User/ Password will be asked during installation ) 
+(User/ Password will be asked during installation )
 
-
-Thank you
-OddMir 
-Please ask us if you need any help:
-URL: https://www.youtube.com/channel/UCU09NU4R-Q3qgy4wndQldOA
-
-
-
-============================================================================================================================================================================================================================================================================================================================================================================================================================
+========================================================================================================================================================================================================================================================================================================================================================================================================================
 
 # Building TVHEADEND :
 # 1. Installing dependencies
@@ -90,13 +82,13 @@ SCRIPT START/STOP :
 Copy dan Paste ke dir /etc/init.d dan rename file tvheadend
 
 ### BEGIN INIT INFO
-# Provides:          tvheadend
-# Required-Start:    $remote_fs $syslog userhdhomerun
-# Required-Stop:     $remote_fs $syslog
-# Default-Start:     2 3 4 5
-# Default-Stop:      0 1 6
-# Short-Description: Start tvheadend daemon at boot time
-# Description:       Enable service provided by tvheadend daemon.
+ Provides:          tvheadend
+ Required-Start:    $remote_fs $syslog userhdhomerun
+ Required-Stop:     $remote_fs $syslog
+ Default-Start:     2 3 4 5
+ Default-Stop:      0 1 6
+ Short-Description: Start tvheadend daemon at boot time
+ Description:       Enable service provided by tvheadend daemon.
 ### END INIT INFO
 
 TVHNAME="tvheadend" 
