@@ -58,7 +58,7 @@ http://IP:9981
 # 1. Installing dependencies
 $sudo apt install build-essential git libpcre2-dev pkg-config libssl-dev bzip2 wget libavahi-client-dev zlib1g-dev libavcodec-dev libavutil-dev libavformat-dev libswscale-dev libavresample-dev gettext cmake libiconv-hook-dev liburiparser-dev debhelper libcurl4-gnutls-dev python-minimal libdvbcsa-dev python-requests
  <p>OPTIONAL :
-$sudo apt install dvb-apps libva-dev libva-drm1 libva-x11-1
+<p>$sudo apt install dvb-apps libva-dev libva-drm1 libva-x11-1</p>
 
 # 2. Download the latest stable
 $git clone https://github.com/tvheadend/tvheadend.git
