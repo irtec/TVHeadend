@@ -56,27 +56,27 @@ http://IP:9981
 
 # Building TVHEADEND :
 # 1. Installing dependencies
-$sudo apt install build-essential git libpcre2-dev pkg-config libssl-dev bzip2 wget libavahi-client-dev zlib1g-dev libavcodec-dev libavutil-dev libavformat-dev libswscale-dev libavresample-dev gettext cmake libiconv-hook-dev liburiparser-dev debhelper libcurl4-gnutls-dev python-minimal libdvbcsa-dev python-requests
+$ sudo apt install build-essential git libpcre2-dev pkg-config libssl-dev bzip2 wget libavahi-client-dev zlib1g-dev libavcodec-dev libavutil-dev libavformat-dev libswscale-dev libavresample-dev gettext cmake libiconv-hook-dev liburiparser-dev debhelper libcurl4-gnutls-dev python-minimal libdvbcsa-dev python-requests
  <p>OPTIONAL :
-<p>$sudo apt install dvb-apps libva-dev libva-drm1 libva-x11-1</p>
+<p>$ sudo apt install dvb-apps libva-dev libva-drm1 libva-x11-1</p>
 
 # 2. Download the latest stable
-$git clone https://github.com/tvheadend/tvheadend.git
+$ git clone https://github.com/tvheadend/tvheadend.git
 
 # 3. Configuring the build tool
-$cd /root/tvheadend
-<p>$./configure
-<p>$./configure --help
-<p>$./configure --disable-dvbscan
+$ cd /root/tvheadend
+<p>$ ./configure
+<p>$ ./configure --help
+<p>$ ./configure --disable-dvbscan
 
 # 4. Compiling
-$make
+$ make
 
 # 5. Installing the binaries
-$sudo make install
+$ sudo make install
 
 # 6. Config TVH 
-$tvheadend -C (default)
+$ tvheadend -C (default)
 
 # 7. accsess webif
 http://ip:9981
@@ -87,3 +87,5 @@ Selanjutnya :
 <p>Copy/paste Script Start/Stop "tvheadend" ke directory /etc/init.d
 <p>berikan hak akses 755
 <p>chmod 755 /etc/init.d/tvheadend
+<br>
+<p><i>https://github.com/irtec</i>
