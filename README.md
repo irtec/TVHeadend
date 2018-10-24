@@ -65,9 +65,9 @@ $git clone https://github.com/tvheadend/tvheadend.git
 
 # 3. Configuring the build tool
 $cd /root/tvheadend
-$./configure
-$./configure --help
-$./configure --disable-dvbscan
+<p>$./configure
+<p>$./configure --help
+<p>$./configure --disable-dvbscan
 
 # 4. Compiling
 $make
@@ -85,5 +85,5 @@ http://ip:9981
 <p>
 Selanjutnya :
 <p>Copy/paste Script Start/Stop "tvheadend" ke directory /etc/init.d
-berikan hak akses 755
-chmod 755 /etc/init.d/tvheadend
+<p>berikan hak akses 755
+<p>chmod 755 /etc/init.d/tvheadend
