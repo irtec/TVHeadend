@@ -56,26 +56,31 @@ http://IP:9981
 
 # Building TVHEADEND :
 # 1. Installing dependencies
- sudo aptitude install build-essential git pkg-config libssl-dev bzip2 wget
+$sudo apt install build-essential git libpcre2-dev pkg-config libssl-dev bzip2 wget libavahi-client-dev zlib1g-dev libavcodec-dev libavutil-dev libavformat-dev libswscale-dev libavresample-dev gettext cmake libiconv-hook-dev liburiparser-dev debhelper libcurl4-gnutls-dev python-minimal libdvbcsa-dev python-requests
  OPTIONAL :
- sudo aptitude install libavahi-client-dev zlib1g-dev libavcodec-dev libavutil-dev libavformat-dev libswscale-dev libavresample-dev
+$sudo apt install dvb-apps libva-dev libva-drm1 libva-x11-1
 
 # 2. Download the latest stable
- git clone https://github.com/tvheadend/tvheadend.git
+$git clone https://github.com/tvheadend/tvheadend.git
 
 # 3. Configuring the build tool
- AUTOBUILD_CONFIGURE_EXTRA=--enable-libffmpeg_static\ --enable-trace\ --enable-debug ./Autobuild.sh
+$cd /root/tvheadend
+$./configure
+$./configure --help
+$./configure --disable-dvbscan
 
 # 4. Compiling
- make
+$make
 
 # 5. Installing the binaries
- sudo make install
- ./build.linux/tvheadend
+$sudo make install
 
 # 6. Config TVH 
- tvheadend -C
- 
+$tvheadend -C (default)
+
+# 7. accsess webif
+http://ip:9981
+
 ========================================================================================================================================
 <p>
 Selanjutnya :
