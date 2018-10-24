@@ -88,4 +88,4 @@ Selanjutnya :
 <p>berikan hak akses 755
 <p>chmod 755 /etc/init.d/tvheadend
 <br>
-<p><i>https://github.com/irtec</i>
+<p>Oleh <i>https://github.com/irtec</i>
