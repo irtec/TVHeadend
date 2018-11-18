@@ -65,8 +65,6 @@ $ git clone https://github.com/tvheadend/tvheadend.git
 
 # 3. Configuring the build tool
 $ cd /root/tvheadend
-<p>$ ./configure
-<p>$ ./configure --help
 <p>$ ./configure --disable-dvbscan
 
 # 4. Compiling
@@ -74,6 +72,9 @@ $ make
 
 # 5. Installing the binaries
 $ sudo make install
+
+# start tvh :
+sebelumnya cek terlebih dahulu binary di directory /usr/local/bin/ atau /usr/bin/ jika sudah menemukan langsung eksekusi
 
 # 6. Config TVH 
 $ tvheadend -C (default)
