@@ -65,7 +65,7 @@ $ git clone https://github.com/tvheadend/tvheadend.git
 
 # 3. Configuring the build tool
 $ cd /root/tvheadend
-<p>$ ./configure --disable-dvbscan
+<p>$ AUTOBUILD_CONFIGURE_EXTRA=--enable-hdhomerun_client\ --disable-ffmpeg_static ./Autobuild.sh
 
 # 4. Compiling
 $ make
