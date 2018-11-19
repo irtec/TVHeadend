@@ -64,7 +64,7 @@ $ sudo apt install build-essential git libpcre2-dev pkg-config libssl-dev bzip2 
 $ git clone https://github.com/tvheadend/tvheadend.git
 
 # 3. Configuring the build tool
-$ cd /root/tvheadend
+$ cd tvheadend
 <p>$ AUTOBUILD_CONFIGURE_EXTRA=--enable-hdhomerun_client\ --disable-ffmpeg_static ./Autobuild.sh
 
 # start tvh :
