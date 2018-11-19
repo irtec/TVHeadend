@@ -67,7 +67,7 @@ $ git clone https://github.com/tvheadend/tvheadend.git
 $ cd tvheadend
 <p>$ ./configure --disable-ffmpeg_static
 <span><p>$ sudo make
-<span>$ sudo make install
+<span><p>$ sudo make install
 
 # start tvh :
 sebelumnya cek terlebih dahulu binary di directory /usr/local/bin/ atau /usr/bin/ jika sudah menemukan langsung eksekusi
