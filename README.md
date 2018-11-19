@@ -84,6 +84,10 @@ Selanjutnya :
 <p>Copy/paste Script Start/Stop "tvheadend" ke directory /etc/init.d
 <p>berikan hak akses 755
 <p>chmod 755 /etc/init.d/tvheadend
+ <p><p>
+ Untuk autostart pada saat booting silahkan edit rc.local dan input perintah seperti di bawah :
+ <p>sleep 5
+<p>/etc/init.d/tvheadend start
  <br>=================================================================================
  <br>=================================================================================
 <br><br>
