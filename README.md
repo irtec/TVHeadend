@@ -65,7 +65,9 @@ $ git clone https://github.com/tvheadend/tvheadend.git
 
 # 3. Configuring the build tool
 $ cd tvheadend
-<p>$ AUTOBUILD_CONFIGURE_EXTRA=--enable-hdhomerun_client\ --disable-ffmpeg_static ./Autobuild.sh
+<p>$ ./configure --disable-ffmpeg_static
+ $ sudo make
+ $ sudo make install
 
 # start tvh :
 sebelumnya cek terlebih dahulu binary di directory /usr/local/bin/ atau /usr/bin/ jika sudah menemukan langsung eksekusi
