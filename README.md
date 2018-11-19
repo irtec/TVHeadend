@@ -29,10 +29,10 @@ gpg: keyserver receive failed: No dirmngr
 # 2. Pick a build type, add the repository accordingly:
 
 # Bintray:
- echo "deb https://dl.bintray.com/tvheadend/deb trusty stable-4.2" | sudo tee /etc/apt/sources.list.d/tvheadend.list
+ echo "deb https://dl.bintray.com/tvheadend/deb xenial stable-4.2" | sudo tee /etc/apt/sources.list.d/tvheadend.list
 
 # Doozer:
- echo "deb http://apt.tvheadend.org/unstable trusty main" | sudo tee -a /etc/apt/sources.list.d/tvheadend.list
+ echo "deb http://apt.tvheadend.org/unstable xenial main" | sudo tee -a /etc/apt/sources.list.d/tvheadend.list
 
 >>>>>>>>>>>>>>>>>>>>>>>>
 
