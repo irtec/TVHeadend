@@ -8,12 +8,12 @@
 ________________________________________________________________________________________________
 
 # 1. install GPG keys:
-Bintray :
- sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 379CE192D401AB61 
+<p>Bintray :
+ <p>sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 379CE192D401AB61 
 
-Doozer (apt.tvheadend.org):
- wget -qO- https://doozer.io/keys/tvheadend/tvheadend/pgp | sudo apt-key add -
-
+<p>Doozer (apt.tvheadend.org):
+ <p>wget -qO- https://doozer.io/keys/tvheadend/tvheadend/pgp | sudo apt-key add -
+<p>
 If you see something like the following:
 Executing: /tmp/apt-key-gpghome666/gpg.1.sh --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 379CE192D401AB61
 gpg: failed to start the dirmngr '/usr/bin/dirmngr': No such file or directory
