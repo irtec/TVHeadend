@@ -65,7 +65,7 @@ $ git clone https://github.com/tvheadend/tvheadend.git
 
 # 3. Configuring the build tool
 $ cd tvheadend
-<p>$ ./configure --enable-libffmpeg_static --disable-dvbscan
+<p>$ ./configure --prefix=/usr --extra-version=0ubuntu0.15.04.1 --build-suffix=-ffmpeg --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --shlibdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --enable-shared --disable-stripping --enable-avresample --enable-avisynth --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-libschroedinger --enable-libshine --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libwavpack --enable-libwebp --enable-libxvid --enable-opengl --enable-x11grab --enable-libdc1394 --enable-libiec61883 --enable-libzvbi --enable-libzmq --enable-frei0r --enable-libvpx --enable-libx264 --enable-libsoxr --enable-gnutls --enable-openal --enable-libopencv --enable-librtmp --enable-libx265 --disable-ffmpeg_static
 <span><p>$ sudo make
 <span><p>$ sudo make install
 
