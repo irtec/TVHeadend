@@ -65,7 +65,7 @@ $ git clone https://github.com/tvheadend/tvheadend.git
 
 # 3. Configuring the build tool
 $ cd tvheadend
-<p>$ ./configure --disable-ffmpeg_static
+<p>$ ./configure --enable-libffmpeg_static --disable-dvbscan
 <span><p>$ sudo make
 <span><p>$ sudo make install
 
@@ -91,4 +91,5 @@ Selanjutnya :
  <br>=================================================================================
  <br>=================================================================================
 <br><br>
+ <p>rebuild $ make distclean
 <p>by <i>https://github.com/irtec</i>
