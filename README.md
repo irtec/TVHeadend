@@ -93,3 +93,16 @@ Selanjutnya :
 <br><br>
  <p>rebuild $ make distclean
 <p>by <i>https://github.com/irtec</i>
+
+
+
+#DEBIAN 9
+
+<p>1. Add the following line to /etc/apt/sources.list:
+<p>deb http://www.deb-multimedia.org stretch main
+<p>2. Update the package index:
+<p># sudo apt-get update
+<p>3. Install GPG key of the repository:
+<p># sudo apt-get install deb-multimedia-keyring
+<p>4. Install tvheadend deb package:
+<p># sudo apt-get install tvheadend
